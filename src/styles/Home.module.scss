@@ -1,0 +1,32 @@
+.container {
+	padding: 20px 32px;
+}
+
+.main {
+	display: flex;
+	gap: 200px;
+	justify-content: center;
+
+	h2 {
+		color: white;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.resultContainer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		justify-items: center;
+		margin-top: 60px;
+		gap: 120px;
+
+		.drinks {
+			grid-column-start: 1;
+		}
+	}
+
+	.randomContainer {
+		margin-top: 40px;
+	}
+}

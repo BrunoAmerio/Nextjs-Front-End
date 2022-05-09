@@ -1,0 +1,53 @@
+.container {
+	display: flex;
+	gap: 10px;
+	position: absolute;
+	margin: auto;
+
+	button {
+		border: none;
+		border-radius: 5px;
+		height: 40px;
+		padding: 0px 20px;
+		font-weight: bold;
+		color: white;
+		cursor: pointer;
+	}
+
+	.searchButton {
+		border: 2px solid red;
+		background-color: transparent;
+		position: relative;
+		transition: 0.2s;
+
+		&:hover {
+			transform: translateY(-7px);
+			background-color: red;
+			transition: 0.2s;
+		}
+	}
+
+	.randomButton {
+		border: 2px solid green;
+		background-color: transparent;
+		transition: 0.2s;
+
+		&:hover {
+			transform: translateY(-7px);
+			background-color: green;
+			transition: 0.2s;
+		}
+	}
+
+	input {
+		height: 40px;
+		width: 300px;
+		border-radius: 8px;
+		border: none;
+		padding: 0px 10px;
+
+		&:focus {
+			outline: none;
+		}
+	}
+}

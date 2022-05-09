@@ -1,0 +1,39 @@
+.container {
+	width: 800px;
+	background-color: white;
+	text-align: center;
+	padding: 20px 0px;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	.backButton {
+		border: none;
+		height: 40px;
+		width: 70px;
+		border-radius: 7px;
+		border: 1px solid red;
+		background-color: transparent;
+		font-weight: bolder;
+		color: white;
+		position: absolute;
+		left: 20px;
+		top: 10px;
+		cursor: pointer;
+	}
+
+	img {
+		border-radius: 10px;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0px;
+	}
+
+	.instructions {
+		width: 70%;
+		margin: auto;
+	}
+}
